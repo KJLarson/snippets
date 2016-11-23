@@ -6,8 +6,18 @@ permalink: /comparison/
 
 ---
 
-Description.
+Operator | Comparison
+| --- | --- |
+==	| Equal
+===	| Strict Equal
+!=	| Not Equal
+!==	| Strict Not Equal
+<	| Less Than
+>	| Greater Than
+<=	| Less Than or Equal
+>=	| Greater Than or Equal
 
 ```js
-var foo = "Bar";
+var foo == bar;
+var foo === bar;
 ```
