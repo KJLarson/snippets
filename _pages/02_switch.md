@@ -6,8 +6,6 @@ permalink: /switch/
 
 ---
 
-Description.
-
 ```js
 switch (expression) {
   case x:
