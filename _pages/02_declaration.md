@@ -6,8 +6,6 @@ permalink: /declaration/
 
 ---
 
-Description.
-
-```js
-var foo = "Bar";
-```
+function foo(parameters) {
+  // code to be executed
+}
