@@ -6,8 +6,8 @@ permalink: /null/
 
 ---
 
-Description.
+**Null** is a value that represents nothing.
 
 ```js
-var foo = "Bar";
+var foo = null;
 ```
