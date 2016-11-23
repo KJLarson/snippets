@@ -6,8 +6,8 @@ permalink: /symbol/
 
 ---
 
-Description.
+A **Symbol** is a unique and immutable data type.
 
 ```js
-var foo = "Bar";
+var foo = Symbol();
 ```
