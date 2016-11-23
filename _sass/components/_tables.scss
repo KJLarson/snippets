@@ -1,0 +1,49 @@
+/* Tables
+  =============== */
+
+// Table expands to full width of containing element
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	max-width: 100%;
+	border: 1px solid lighten(#1B2025, 5%);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: darken(#242A31, 3%);
+}
+
+thead th {
+	border: 1px solid lighten(#1B2025, 10%);
+}
+
+tfoot th {
+	border-top: 2px solid $border-color;
+}
+
+td {
+	border: 1px solid lighten(#1B2025, 10%);
+}
+
+th,
+td {
+	text-align: left;
+	padding: .5rem;
+}
+
+caption {
+	padding: 1rem 0;
+	caption-side: bottom;
+	color: $caption;
+}
+
+// Container for responsive tables
+.contain-table {
+	overflow-x: auto;
+}
+
+@include small-breakpoint {
+	.contain-table {
+		width: 100%;
+	}
+}
