@@ -6,8 +6,6 @@ permalink: /if-else/
 
 ---
 
-Description.
-
 ```js
 if (condition) {
   // do something.
