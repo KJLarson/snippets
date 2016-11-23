@@ -6,6 +6,8 @@ permalink: /declaration/
 
 ---
 
+```js
 function foo(parameters) {
   // code to be executed
 }
+```
