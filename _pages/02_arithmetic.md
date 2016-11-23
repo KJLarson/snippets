@@ -6,8 +6,12 @@ permalink: /arithmetic/
 
 ---
 
-Description.
-
-```js
-var foo = "Bar";
-```
+Operator| Description
+--- | ---
++	| Addition
+-	| Subtraction
+*	| Multiplication
+/	| Division
+%	| Modulus (Remainder)
+++	| Increment
+--	| Decrement
