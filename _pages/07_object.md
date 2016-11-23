@@ -6,8 +6,14 @@ permalink: /object/
 
 ---
 
-Description.
+An **object** is a collection of name/value pairs.
 
 ```js
-var foo = "Bar";
+var foo = {};
+```
+
+An **array** stores a list into a single variable.
+
+```js
+var foo = [];
 ```
