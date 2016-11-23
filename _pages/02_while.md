@@ -6,8 +6,8 @@ permalink: /while/
 
 ---
 
-Description.
-
 ```js
-var foo = "Bar";
+while (condition) {
+  // execute code
+}
 ```
