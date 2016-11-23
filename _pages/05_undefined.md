@@ -6,8 +6,8 @@ permalink: /undefined/
 
 ---
 
-Description.
+An **undefined** variable has no value. 
 
 ```js
-var foo = "Bar";
+var foo;
 ```
