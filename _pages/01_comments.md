@@ -5,7 +5,7 @@ categories: basics
 permalink: /comments/
 ---
 
-A **comment** is a human-readable note written in the code.
+A [**comment**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Basics) is a human-readable note written in the code.
 
 Comments are written in plain English with the purpose of explaining code. Although comments don't technically perform any function in the program, it's crucial to get into the habit of proper documentation to help you or future collaborators understand the intent of your code.
 
