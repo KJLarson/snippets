@@ -10,6 +10,6 @@ Description.
 
 ```js
 for (var i = 0; i < 5; i++) {
-	// do the loop 5 times
+	// execute code 5 times
 }
 ```
