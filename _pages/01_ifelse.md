@@ -9,5 +9,9 @@ permalink: /if-else/
 Description.
 
 ```js
-var foo = "Bar";
+if (condition) {
+  // do something.
+} else {
+  // do something else.
+}
 ```
