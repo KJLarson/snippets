@@ -6,8 +6,8 @@ permalink: /number/
 
 ---
 
-Description.
+A **number** is a numerical value.
 
 ```js
-var foo = "Bar";
+var foo = 5;
 ```
