@@ -9,5 +9,7 @@ permalink: /for/
 Description.
 
 ```js
-var foo = "Bar";
+for (var i = 0; i < 5; i++) {
+	// do the loop 5 times
+}
 ```
