@@ -6,8 +6,9 @@ permalink: /boolean/
 
 ---
 
-Description.
+A **Boolean** is a value that is either true or false.
 
 ```js
-var foo = "Bar";
+var foo = true;
+var bar = false;
 ```
