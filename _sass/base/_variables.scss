@@ -26,14 +26,14 @@ $link-color: #61afef;
 $link-hover-color: #ffeea8;
 $highlight: #ffeea8;
 $error: #D33C40;
-$bq-border: 8px solid #cdcdcd;
+$bq-border: 8px solid white;
 $sidebar: #242A31;
 
 /* Typography */
 
 // Body font
 $font-size: 1rem;
-$body-font-size: 1.05rem;
+$body-font-size: 1.1rem;
 $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
@@ -43,13 +43,13 @@ $line-height: 1.5;
 
 // Headings
 $heading-font-color: #d19a66;
-$heading-font-weight: 300;
+$heading-font-weight: 400;
 $heading-font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
 $heading-line-height: 1.2;
 
-$h1: 1.8rem;
-$h2: 1.6rem;
-$h3: 1.4rem;
+$h1: 2rem;
+$h2: 1.8rem;
+$h3: 1.6rem;
 $h4: 1.3rem;
 $h5: 1.2rem;
 

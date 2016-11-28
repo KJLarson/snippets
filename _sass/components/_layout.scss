@@ -26,13 +26,21 @@ main {
 	}
 }
 
+ul, li, ol, dt, dd, dl {
+	color: #ffeea8;
+}
+
 .footer {
 	margin-left: 250px;
 	padding: 0 1rem;
 	height: 80px;
-	background: darken($background, 5%);
+	background: darken($background, 3%);
 	text-align: center;
 	p {
 		line-height: 80px;
 	}
+}
+
+strong {
+	color: #e06c75;
 }
