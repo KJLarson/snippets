@@ -8,6 +8,11 @@ permalink: /boolean/
 
 > A **Boolean** is a value that is either true or false.
 
+```js
+var foo = true;
+var bar = false;
+```
+
 Boolean values are very commonly used in programming for when a value might switch between yes and no, on and off, or true and false. Booleans can represent the current state of something that is likely to change.
 
 For example, we'd use a Boolean to indicate whether a checkbox is checked or not.
