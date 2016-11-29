@@ -9,13 +9,13 @@ html {
 }
 
 // Body base
-html {
-	height: 100%;
-}
 
 body {
 	color: $font-color;
-	background: $background;
+	background: #121518;
+	/* background-image: linear-gradient(to right, #121518, #121518 50%, #282F37 50%, #282F37);
+	background-size: cover;
+	background-repeat: no-repeat; */
 	font-size: $body-font-size;
 	height: 100%;
 }
@@ -25,9 +25,8 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
-	margin: 0 0 1.5rem 0;
+h5 {
+	margin: 1.5rem 0;
 	font-weight: $heading-font-weight;
 	font-family: $heading-font-family;
 	line-height: $heading-line-height;
@@ -76,7 +75,7 @@ mark {
 // Blockquote
 blockquote {
 	margin: 0;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	font-weight: 300;
 	color: white;
 	cite {
@@ -102,7 +101,7 @@ kbd {
 	padding: .1em .6em;
 	text-shadow: 0 1px 0 #fff;
 }
- 
+
 // Line break
 hr {
 	height: 0;

@@ -4,14 +4,15 @@
 .all-container {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1300px;
+	max-width: 1400px;
 }
 
 .content {
-	padding: 2rem 0;
+	padding: 1rem 0;
 	min-height: 100vh;
 	margin-left: 250px;
 	background: lighten(#1B2025, 6%);
+	border-right: 1px solid lighten(#282F37, 5%);
 }
 
 main {
@@ -21,15 +22,31 @@ main {
 	h4,
 	h5,
 	p,
-	ol,
 	li,
 	table {
-		margin-left: 1rem;
-		margin-right: 1rem;
+		margin-left: 2rem;
+		max-width: 800px;
 	}
 }
 
-ul, li, ol, dt, dd, dl {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ol,
+ul {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+ul,
+li,
+ol,
+dt,
+dd,
+dl {
 	color: #ffeea8;
 }
 
