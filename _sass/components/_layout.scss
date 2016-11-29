@@ -1,14 +1,17 @@
 /* Layout
 =============== */
 
+.all-container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1300px;
+}
+
 .content {
+	padding: 2rem 0;
+	min-height: 100vh;
 	margin-left: 250px;
-	min-height: 100%;
-	&::after {
-		content: "";
-		display: block;
-		height: 80px;
-	}
+	background: lighten(#1B2025, 6%);
 }
 
 main {
@@ -22,23 +25,12 @@ main {
 	li,
 	table {
 		margin-left: 1rem;
-		max-width: $small;
+		margin-right: 1rem;
 	}
 }
 
 ul, li, ol, dt, dd, dl {
 	color: #ffeea8;
-}
-
-.footer {
-	margin-left: 250px;
-	padding: 0 1rem;
-	height: 80px;
-	background: darken($background, 3%);
-	text-align: center;
-	p {
-		line-height: 80px;
-	}
 }
 
 strong {
