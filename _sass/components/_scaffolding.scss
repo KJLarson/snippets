@@ -12,7 +12,7 @@ html {
 
 body {
 	color: $font-color;
-	background: $sidebar;
+	background: $sidebar; //radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%);
 	/* background-image: linear-gradient(to right, #121518, #121518 50%, #282F37 50%, #282F37);
 	background-size: cover;
 	background-repeat: no-repeat; */
@@ -77,7 +77,7 @@ blockquote {
 	margin: 0;
 	font-size: 1.6rem;
 	font-weight: 300;
-	color: white;
+	color: #333;
 	cite {
 		display: block;
 		margin-top: 25px;
