@@ -12,7 +12,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #ABB2BF;
 	background: none;
-	font-size: .9rem;
+	font-size: 1rem;
 	border-radius: 0;
 	font-family: Menlo, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
@@ -58,16 +58,15 @@ code[class*="language-"]::selection {
 /* Code blocks */
 
 pre[class*="language-"] {
-	padding: 2rem 1rem;
+	padding: 2rem 2rem;
 	margin: .5rem 0;
 	overflow: auto;
-	border-left: 20px solid darken(#1B2025, 2%);
 }
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"],
 code {
-	background: darken(#242A31, 4%);
+	background: lighten(#21252B, 2%);
 }
 
 

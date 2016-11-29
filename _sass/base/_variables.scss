@@ -17,7 +17,7 @@ $desktop: $medium;
 
 /* Colors */
 
-$background: darken(#242A31, 6%);
+$background: #333842;
 $primary-color: #61afef;
 $secondary-color: #98c379;
 $accent-color: #cdcdcd;
@@ -27,7 +27,7 @@ $link-hover-color: #ffeea8;
 $highlight: #ffeea8;
 $error: #D33C40;
 $bq-border: 8px solid white;
-$sidebar: #242A31;
+$sidebar: #21252B;
 
 /* Typography */
 
@@ -37,7 +37,7 @@ $body-font-size: 1.2rem;
 $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
-$font-color:  #bcc0c4;
+$font-color:  #dddfe1;
 $font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
 $line-height: 1.5;
 
@@ -63,7 +63,7 @@ $content-padding-mobile: 30px 0;
 
 $border-width: 1px;
 $border-style: solid;
-$border-color: lighten(#1B2025, 5%);
+$border-color: #181A1F;
 $border-radius: 4px;
 $borders: $border-width $border-style $border-color;
 
