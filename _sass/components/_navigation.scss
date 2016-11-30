@@ -4,11 +4,8 @@
 .summary {
 	background: $sidebar;
 	padding-top: 1.5rem;
-	position: fixed;
-	top: 0;
 	z-index: 2;
-	width: 230px;
-	height: 100%;
+	flex: 0 0 230px;
 	color: #6c727e;
 	overflow-y: hidden;
 	overflow-x: hidden;

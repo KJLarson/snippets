@@ -1,0 +1,43 @@
+<aside class="summary">
+	<nav>
+		<ul>
+			<h1><a href="{{ site.baseurl }}"><img src="{{ "/images/favicon.png" | prepend: site.baseurl }}"> &nbsp; JS Ref</a></h1>
+			<h2>Basics</h2>
+			<ul>
+				{% for page in site.pages %} {% if page.categories contains 'basics' %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
+			<h2>Data Types</h2>
+			<ul>
+				{% for page in site.pages %} {% if page.categories contains 'data types' %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
+			<h2>Conditionals</h2>
+			<ul>
+				{% for page in site.pages %} {% if page.categories contains 'conditionals' %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
+			<h2>Operators</h2>
+			<ul>
+				{% for page in site.pages %} {% if page.categories contains 'operators' %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
+			<h2>Loops</h2>
+			<ul>
+				{% for page in site.pages %} {% if page.categories contains 'loops' %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
+			<h2>Functions</h2>
+			<ul>
+				{% for page in site.pages %} {% if page.categories contains 'functions' %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>			
+		</ul>
+	</nav>
+</aside>
