@@ -19,7 +19,7 @@ body {
 }
 
 // Headings
-h1, 
+h1,
 h2,
 h3,
 h4,
@@ -54,7 +54,11 @@ blockquote {
 	margin: 0;
 	font-size: 1.6rem;
 	font-weight: 300;
-	color: #333;
+	color: #463700;
+	background: #FFF4CA;
+	border-left: 8px solid #FFE168;
+	padding: 1rem 0;
+	margin-bottom: 1.5rem;
 	cite {
 		display: block;
 		margin-top: 25px;
@@ -63,6 +67,7 @@ blockquote {
 	}
 	p {
 		max-width: 100%;
+		margin-bottom: 0;
 	}
 }
 
