@@ -6,7 +6,7 @@ permalink: /arithmetic/
 
 ---
 
-**Arithmetic operators** perform mathematical calculations and return a value.
+> **Arithmetic operators** perform mathematical calculations and return a value.
 
 Operator| Description
 --- | ---
