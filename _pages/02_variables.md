@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Variables
-subtitle: A variable is a container that stores data values.
+subtitle: A container that stores data values.
 categories: basics
 permalink: /variables/
 
