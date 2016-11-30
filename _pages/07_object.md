@@ -1,15 +1,11 @@
 ---
 layout: page
 title: Object
-subtitle: An object is a collection of name/value pairs.
+subtitle: A collection of name/value pairs.
 categories: data types
 permalink: /object/
 
 ---
-
-```js
-var foo = {};
-```
 
 Any value that isn't simply a string, number, Boolean, null, undefined, or Symbol is an object.
 
@@ -82,7 +78,7 @@ A method is indicated by parentheses. (`()`).
 
 ### Arrays
 
-> An **array** stores a list into a single variable.
+An **array** stores a list into a single variable.
 
 Since an array contains more than one value, it's a type of object. Create an array with a pair of straight braces (`[]`).
 
