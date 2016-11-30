@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Arithmetic
-subtitle: Arithmetic operators perform mathematical calculations and return a value.
+subtitle: Perform mathematical calculations and return a value.
 categories: operators
 permalink: /arithmetic/
 
