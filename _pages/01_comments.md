@@ -2,7 +2,7 @@
 layout: page
 title: Comments
 categories: basics
-subtitle: A comment is a human-readable note written in the code.
+subtitle: A human-readable note written in the code.
 permalink: /comments/
 ---
 
