@@ -6,6 +6,8 @@ permalink: /comparison/
 
 ---
 
+> **Comparison operators** are used to determine equality or differences between values.
+
 Operator | Comparison
 | --- | --- |
 ==	| Equal
