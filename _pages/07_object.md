@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Object
+subtitle: An object is a collection of name/value pairs.
 categories: data types
 permalink: /object/
 
 ---
-
-> An **object** is a collection of name/value pairs.
 
 ```js
 var foo = {};
