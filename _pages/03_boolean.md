@@ -1,16 +1,11 @@
 ---
 layout: page
 title: Boolean
-subtitle: A Boolean is a value that is either true or false.
+subtitle: A true or false value.
 categories: data types
 permalink: /boolean/
 
 ---
-
-```js
-var foo = true;
-var bar = false;
-```
 
 Boolean values are very commonly used in programming for when a value might switch between yes and no, on and off, or true and false. Booleans can represent the current state of something that is likely to change.
 
