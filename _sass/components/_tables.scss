@@ -6,19 +6,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	max-width: 100%;
-	border: $borders;
 }
 
 tbody tr:nth-child(odd) {
-	background-color: darken(#242A31, 1%);
+	background-color: darken($background, 4%);
 }
 
 thead th {
-	border: $borders;
+	border-bottom: 2px solid $font-color;
 }
-
 td {
-	border: $borders;
+	border: 1px solid $font-color;
 }
 
 th,
