@@ -1,15 +1,11 @@
 ---
 layout: page
 title: String
-subtitle: A string is a series of characters.
+subtitle: A series of characters.
 categories: data types
 permalink: /string/
 
 ---
-
-```js
-var foo = "Bar";
-```
 
 Any data that contains text will be represented in a string. The name *string* likely originated from early programmers who were reminded of beads on a string.
 
