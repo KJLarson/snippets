@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Null&nbsp;
+subtitle: Null is a value that represents nothing.
 categories: data types
 permalink: /null/
 
 ---
-
-> **Null** is a value that represents nothing.
 
 ```js
 var foo = null;
