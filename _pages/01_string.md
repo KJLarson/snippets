@@ -1,12 +1,11 @@
 ---
 layout: page
 title: String
+subtitle: A string is a series of characters.
 categories: data types
 permalink: /string/
 
 ---
-
-> A **string** is a series of characters.
 
 ```js
 var foo = "Bar";
