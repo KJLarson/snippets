@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Undefined
-subtitle: An undefined variable has no value. 
+subtitle: A lack of value.
 categories: data types
 permalink: /undefined/
 
 ---
-
-
 
 With the `var` keyword, we're *declaring* a variable, but until a value is assigned to it, it's undefined.
 
