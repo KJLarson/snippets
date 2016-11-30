@@ -1,15 +1,11 @@
 ---
 layout: page
 title: Number
-subtitle:  A number is a numerical value.
+subtitle:  A numerical value.
 categories: data types
 permalink: /number/
 
 ---
-
-```js
-var foo = 5;
-```
 
 Numbers do not have any special syntax associated with them like strings do. If you were to place a number in quotes (`"5"`), it wouldn't be considered a number, but a character in a string. A number can be whole or a decimal (known as a float), and can have a positive or negative value.
 
