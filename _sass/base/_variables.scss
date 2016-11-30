@@ -23,7 +23,7 @@ $secondary-color: #98c379;
 $accent-color: #cdcdcd;
 $alternate-background: #ECF0F5;
 $link-color: #61afef;
-$link-hover-color: #ffeea8;
+$link-hover-color: darken($link-color, 20%);
 $highlight: #ffeea8;
 $error: #D33C40;
 $bq-border: 8px solid white;
@@ -42,7 +42,7 @@ $font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
 $line-height: 1.5;
 
 // Headings
-$heading-font-color: #111;
+$heading-font-color: #3D4258;
 $heading-font-weight: 400;
 $heading-font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
 $heading-line-height: 1.2;

@@ -12,10 +12,8 @@ html {
 
 body {
 	color: $font-color;
-	background: $sidebar; //radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%);
-	/* background-image: linear-gradient(to right, #121518, #121518 50%, #282F37 50%, #282F37);
-	background-size: cover;
-	background-repeat: no-repeat; */
+	background-image: linear-gradient(to top right, #3D4258, #6670A0, #9688B4);
+	background-attachment: fixed;
 	font-size: $body-font-size;
 	height: 100%;
 }
@@ -33,36 +31,16 @@ h5 {
 	color: $heading-font-color;
 }
 
-// Individual styling
-h1 {
-	font-size: $h1;
-}
-
-h2 {
-	font-size: $h2;
-}
-
-h3 {
-	font-size: $h3;
-}
-
-h4 {
-	font-size: $h4;
-}
-
-h5 {
-	font-size: $h5;
-}
-
 // Link styling
 a {
 	color: $link-color;
+	font-weight: 600;
 	text-decoration: none;
 	&:hover,
 	&:active,
 	&:focus {
 		color: $link-hover-color;
-		text-decoration: underline;
+		background: darken($background, 5%);
 	}
 }
 
@@ -83,6 +61,9 @@ blockquote {
 		margin-top: 25px;
 		font-size: .9em;
 		text-align: right
+	}
+	p {
+		margin-top: 0;
 	}
 }
 

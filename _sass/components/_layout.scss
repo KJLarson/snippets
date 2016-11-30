@@ -8,27 +8,13 @@
 }
 
 .content {
-	border-top: lighten($border-color, 5%);
+	//border-top: lighten($border-color, 5%);
 	padding: 1rem 0;
 	min-height: 100vh;
 	margin-left: 250px;
 	background: $background;
 	border-left: $borders;
-	border-right: $borders;
-}
-
-main {
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	p,
-	li,
-	table {
-		margin-left: 2rem;
-		max-width: 800px;
-	}
+	border-right: 1px solid lighten($border-color, 45%);
 }
 
 h1,
@@ -38,13 +24,33 @@ h4,
 h5,
 p,
 ol,
-ul {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+ul,
+table {
+	margin: 1.5rem 2rem;
+	max-width: 800px;
+}
+
+// Individual styling
+h1 {
+	font-size: $h1;
+	margin-bottom: 0;
 }
 
 h2 {
-	margin-bottom: -1.5rem;
+	font-size: $h2;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: $h3;
+}
+
+h4 {
+	font-size: $h4;
+}
+
+h5 {
+	font-size: $h5;
 }
 
 strong {

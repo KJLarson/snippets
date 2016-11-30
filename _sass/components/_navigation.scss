@@ -34,7 +34,7 @@
 			&:focus,
 			&:active {
 				color: white;
-				border-left: 3px solid #c678dd;
+				border-left: 3px solid #9688B4;
 				background: darken(#242A31, 3%);
 			}
 		}
@@ -59,9 +59,10 @@
 		color: #6c727e;
 		margin: 0;
 		padding: .75rem 1rem;
-		font-size: 1rem;
+		font-size: .8rem;
 		font-weight: 600;
 		border-left: 3px solid transparent;
+		text-transform: uppercase;
 		&:hover,
 		&:focus,
 		&:active {
