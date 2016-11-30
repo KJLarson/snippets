@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Number
+subtitle:  A number is a numerical value.
 categories: data types
 permalink: /number/
 
 ---
-
-> A **number** is a numerical value.
 
 ```js
 var foo = 5;
