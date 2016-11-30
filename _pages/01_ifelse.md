@@ -6,6 +6,8 @@ permalink: /if-else/
 
 ---
 
+> **Conditional statements** execute an action based on whether specified conditions are true or false.
+
 ```js
 if (condition) {
   // do something.
