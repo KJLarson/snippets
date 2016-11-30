@@ -8,6 +8,11 @@ permalink: /comparison/
 
 > **Comparison operators** are used to determine equality or differences between values.
 
+```js
+var foo == bar;
+var foo === bar;
+```
+
 Operator | Comparison
 | --- | --- |
 ==	| Equal
@@ -19,7 +24,4 @@ Operator | Comparison
 <=	| Less Than or Equal
 >=	| Greater Than or Equal
 
-```js
-var foo == bar;
-var foo === bar;
-```
+
