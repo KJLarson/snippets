@@ -1,16 +1,11 @@
 ---
 layout: page
 title: Variables
+subtitle: A variable is a container that stores data values.
 categories: basics
 permalink: /variables/
 
 ---
-
-> A **variable** is a container that stores data values.
-
-```js
-var foo;
-```
 
 You know a variable as something that can change. In basic algebra, it's a letter that represents a number. `x` is a common variable name, but it can just as easily be represented by `y`, `z`, or another name.
 
