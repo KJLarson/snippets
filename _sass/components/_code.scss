@@ -59,7 +59,7 @@ code[class*="language-"]::selection {
 
 pre[class*="language-"] {
 	padding: 2rem 2rem;
-	margin: .5rem 0;
+	margin: 0 0 1.5rem 0;
 	overflow: auto;
 }
 
@@ -86,7 +86,8 @@ code {
 	padding: .1rem .3rem;
 	border-radius: 0;
 	background: darken($background, 3%);
-	border: 1px solid darken($background, 8%);
+	border: 1px solid darken($background, 10%);
+	margin: 0 .1rem;
 }
 
 .token.comment,

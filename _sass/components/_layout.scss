@@ -25,20 +25,19 @@ h5,
 p,
 ol,
 ul,
-table {
-	margin: 1.5rem 2rem;
+table,
+div {
+	margin: 0 0 1.5rem 2rem;
 	max-width: 800px;
 }
 
 // Individual styling
 h1 {
 	font-size: $h1;
-	margin-bottom: 0;
 }
 
 h2 {
 	font-size: $h2;
-	margin-bottom: 0;
 }
 
 h3 {
