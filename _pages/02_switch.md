@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Switch
+subtitle: Execute code based on whether an expression matches a value.
 categories: conditionals
 permalink: /switch/
 
