@@ -15,9 +15,7 @@ Comments are written in plain English with the purpose of explaining code. Altho
 
 ```js
 // This is a single line comment.
-```
 
-```js
 /* This is a comment.
 It's a multi line comment.
 Also a haiku. */
