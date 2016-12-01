@@ -37,7 +37,7 @@ a {
 	&:hover,
 	&:active,
 	&:focus {
-		color: darken($link-color, 15%);
+		color: $link-hover-color;
 		background: rgba(0, 0, 0, .15);
 	}
 }
