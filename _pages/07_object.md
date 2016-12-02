@@ -57,8 +57,8 @@ If the name begins with a number or has a space, it must be accessed using the
 bracket notation. [Read: MDN][1]
 
 ``` js
-batman.secret identity; // invalid
-batman["Secret Identity"]; // valid
+batman.secret identity;     // invalid
+batman["Secret Identity"];  // valid
 ```
 
 A method performs an action. Here is a simple example.
@@ -69,7 +69,7 @@ var batman = {
   lastName: "Wayne",
   secretIdentity: function() { // method
     return this.firstName + " " + this.lastName;
-  }
+  },
 };
 ```
 
@@ -104,7 +104,7 @@ var ninjaTurtles = [
   "Leonardo",
   "Michelangelo",
   "Raphael",
-  "Donatello"
+  "Donatello",
 ];
 ```
 
