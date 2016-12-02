@@ -43,13 +43,13 @@ As you can see, we can apply any primitive data type as a value in an object. We
 can retrieve an individual value with a dot (`.`).
 
 ``` js
-batman.firstName; // returns Bruce, a string
+batman.firstName; // returns "Bruce", a string
 ```
 
 We can also retrieve the value with bracket notation.
 
 ``` js
-batman["firstName"]; // returns Bruce
+batman["firstName"]; // returns "Bruce"
 ```
 
 A JavaScript property name must be a valid JavaScript string or numeric literal.
@@ -79,7 +79,7 @@ result. In the example, `this` is the same as `batman` because it's inside the
 object (`{}`).
 
 ``` js
-batman.secretIdentity(); // returns Bruce Wayne, a concatenation of two properties
+batman.secretIdentity(); // returns "Bruce Wayne", a concatenation of two properties
 ```
 
 A method is indicated by parentheses. (`()`).
@@ -113,7 +113,7 @@ programming, counting starts at zero, so the first item in a list will always
 be `[0]`.
 
 ``` js
-var leader = ninjaTurtles[0]; // applies Leonardo to the leader variable
+var leader = ninjaTurtles[0]; // assigns "Leonardo" to the leader variable
 ```
 
 You can see how many items are in an array with `length`.
