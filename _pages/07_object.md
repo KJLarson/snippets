@@ -53,8 +53,8 @@ batman["firstName"]; // returns "Bruce"
 ```
 
 A JavaScript property name must be a valid JavaScript string or numeric literal.
-If the name begins with a number or has a space, it must be accessed using the
-bracket notation. [Read: MDN][1]
+If the name begins with a number, has a space or hypen, then it must be accessed
+using the bracket notation. [Read: MDN][1]
 
 ``` js
 batman.secret identity;     // invalid
