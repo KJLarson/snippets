@@ -8,11 +8,11 @@ permalink: /arithmetic/
 
 Operator | Description
 -------- | -----------
-+	      | Addition
--	      | Subtraction
-*	      | Multiplication
-/	      | Division
++        | Addition
+-        | Subtraction
+*        | Multiplication
+/        | Division
 **       | Exponentiation
-%	      | Modulus (Remainder)
-++	      | Increment
---	      | Decrement
+%        | Modulus (Remainder)
+++       | Increment
+--       | Decrement
