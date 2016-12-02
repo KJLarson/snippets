@@ -4,15 +4,15 @@ title: Arithmetic
 subtitle: Perform mathematical calculations and return a value.
 categories: operators
 permalink: /arithmetic/
-
 ---
 
-Operator| Description
---- | ---
-+	| Addition
--	| Subtraction
-*	| Multiplication
-/	| Division
-%	| Modulus (Remainder)
-++	| Increment
---	| Decrement
+Operator | Description
+-------- | -----------
++        | Addition
+-        | Subtraction
+*        | Multiplication
+/        | Division
+**       | Exponentiation
+%        | Modulus (Remainder)
+++       | Increment
+--       | Decrement
