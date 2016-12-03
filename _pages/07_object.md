@@ -18,8 +18,8 @@ var batman = {};
 Objects are collections of *properties*, which are name-value pairs. This means
 that we use a name to access a value. The key can be any valid JavaScript
 string, while the value can be any valid JavaScript type or object, including
-arrays, maps, and functions. Also, properties with functions as values are
-called *methods*.
+arrays, maps, and functions. Also, properties that are functions can be called
+*methods*.
 
 **Property**       | **Method**
 ------------       | ----------
