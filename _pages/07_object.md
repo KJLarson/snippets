@@ -15,17 +15,19 @@ Create an object with a pair of curly braces (`{}`).
 var batman = {};
 ```
 
-Objects consist of **properties** and **methods**. Properties are what the
-object *is*, and methods are what the object *does*. Returning to the book
-analogy, properties are like nouns and adjectives, and methods are like verbs.
+Objects are collections of *properties*, which are name-value pairs. This means
+that we use a name to access a value. The key can be any valid JavaScript
+string, while the value can be any valid JavaScript type or object, including
+arrays, maps, and functions. Also, properties with functions as values are
+called *methods*.
 
 **Property**       | **Method**
 ------------       | ----------
 `batman.firstName` | `batman.fight()`
 `batman.location`  | `batman.jump()`
 
-We can apply some properties to the `batman` object using name/value pairs
-(sometimes referred to as *key/value* pairs). They will be comma-separated and
+We can apply some properties to the `batman` object using name-value pairs
+(sometimes referred to as *key-value* pairs). They will be comma-separated and
 written as `propertyName: propertyValue`.
 
 ``` js
