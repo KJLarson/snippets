@@ -13,6 +13,7 @@ Create an object with a pair of curly braces (`{}`).
 
 ``` js
 var batman = {};
+var robin  = Object.create(null);
 ```
 
 Objects are collections of *properties*, which are name-value pairs. This means
@@ -32,12 +33,12 @@ written as `propertyName: propertyValue`.
 
 ``` js
 var batman = {
-  firstName: "Bruce",  // string
-  lastName: "Wayne",
-  location: "Gotham",
-  introduced: 1939,    // number
-  billionaire: true,   // boolean
-  weakness: null,      // null
+   firstName:   "Bruce",   // string
+   lastName:    "Wayne",
+   location:    "Gotham",
+   introduced:  1939,      // number
+   billionaire: true,      // boolean
+   weakness:    null,      // null
 };
 ```
 
@@ -45,13 +46,13 @@ As you can see, we can apply any primitive data type as a value in an object. We
 can retrieve an individual value with a dot (`.`).
 
 ``` js
-batman.firstName; // returns "Bruce", a string
+batman.firstName;  // returns "Bruce", a string
 ```
 
 We can also retrieve the value with bracket notation.
 
 ``` js
-batman["firstName"]; // returns "Bruce"
+batman["firstName"];  // returns "Bruce"
 ```
 
 A JavaScript property name must be a valid JavaScript string or numeric literal.
@@ -67,13 +68,19 @@ A method performs an action. Here is a simple example.
 
 ``` js
 var batman = {
-  firstName: "Bruce",
-  lastName: "Wayne",
-  secretIdentity: function() { // method
-    return this.firstName + " " + this.lastName;
-  },
+   firstName: "Bruce",
+   lastName: "Wayne",
+
+   // properties which are functions are called 'methods'
+   secretIdentity: function() {
+      return this.firstName + " " + this.lastName;
+   },
 };
 ```
+
+While the properties `firstName` and `lastName` are strings, `secretIdentity` is
+a function. Instead of manually combining the values of `firstName` and
+`lastName` myself, we can use the `secretIdentity` method.
 
 Instead of a simple data type as the value, I have a `function`. The `function`
 is concatenating `firstName` and `lastName` for `this` object and returning the
