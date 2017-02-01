@@ -4,7 +4,6 @@ title: Comparison
 subtitle: Determine equality or differences between values.
 categories: operators
 permalink: /comparison/
-
 ---
 
 Operator | Comparison

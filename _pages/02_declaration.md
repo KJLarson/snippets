@@ -3,7 +3,6 @@ layout: page
 title: Declaration
 categories: functions
 permalink: /declaration/ 
-
 ---
 
 ```js

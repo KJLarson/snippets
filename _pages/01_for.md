@@ -3,7 +3,6 @@ layout: page
 title: For
 categories: loops
 permalink: /for/
-
 ---
 
 ```js
