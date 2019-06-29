@@ -11,6 +11,6 @@ github_username:  KJLarson
 sass:
   sass_dir: _sass
 include: ['_pages']
-categories: [basics, data types, conditionals, operators, loops, functions]
+categories: [git, terminal, javascript, html, css]
 kramdown:
   input: GFM
