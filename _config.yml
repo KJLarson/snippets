@@ -1,12 +1,12 @@
 # Site Settings
-title: JS Reference
-email: taniarascia@gmail.com
+title: Snippets
+email: kjlarson1@outlook.com
 description: >
-  JavaScript reference
-baseurl: "/js"
-url: "http://taniarascia.github.io"
-twitter_username: taniarascia
-github_username:  taniarascia
+  Code Snippets
+baseurl: "/snippets"
+url: "http://kjlarson.github.io"
+twitter_username: 
+github_username:  KJLarson
 # Build Settings
 sass:
   sass_dir: _sass
