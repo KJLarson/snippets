@@ -1,8 +1,8 @@
-# JS Reference
+# Code Snippets
 
-Tania's personal notes and reference for learning JavaScript.
+Kari's place to store bits of code she repeatedly has to look up.
 
-### [View JS Reference](https://taniarascia.github.io/js/)
+### [View Code Snippets](https://kjlarson.github.io/snippets/)
 
 ## License
 
