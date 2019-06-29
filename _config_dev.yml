@@ -1,12 +1,12 @@
 # Site Settings
-title: JS Reference
-email: taniarascia@gmail.com
+title: Snippets
+email: kjlarson1@outlook.com
 description: >
-  JavaScript reference
+  Code Snippets
 baseurl: ""
 url: "http://localhost:4000"
-twitter_username: taniarascia
-github_username:  taniarascia
+twitter_username: 
+github_username:  KJLarson
 # Build Settings
 sass:
   sass_dir: _sass

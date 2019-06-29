@@ -1,42 +1,42 @@
 <aside class="summary">
 	<nav>
 		<ul>
-			<h2>Basics</h2>
+			<!-- <h2>Basics</h2> -->
 			<ul>
-				{% for page in site.pages %} {% if page.categories contains 'basics' %}
+				{% for page in site.pages %} {% if page.categories contains 'css' %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 			</ul>
-			<h2>Data Types</h2>
+			<!-- <h2>Data Types</h2> -->
 			<ul>
-				{% for page in site.pages %} {% if page.categories contains 'data types' %}
+				{% for page in site.pages %} {% if page.categories contains 'git' %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 			</ul>
-			<h2>Conditionals</h2>
+			<!-- <h2>Conditionals</h2> -->
 			<ul>
-				{% for page in site.pages %} {% if page.categories contains 'conditionals' %}
+				{% for page in site.pages %} {% if page.categories contains 'html' %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 			</ul>
-			<h2>Operators</h2>
+			<!-- <h2>Operators</h2> -->
 			<ul>
-				{% for page in site.pages %} {% if page.categories contains 'operators' %}
+				{% for page in site.pages %} {% if page.categories contains 'javascript' %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 			</ul>
-			<h2>Loops</h2>
+			<!-- <h2>Loops</h2> -->
 			<ul>
-				{% for page in site.pages %} {% if page.categories contains 'loops' %}
+				{% for page in site.pages %} {% if page.categories contains 'terminal' %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 			</ul>
-			<h2>Functions</h2>
-			<ul>
+			<!-- <h2>Functions</h2> -->
+			<!-- <ul>
 				{% for page in site.pages %} {% if page.categories contains 'functions' %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
-			</ul>			
+			</ul>			 -->
 		</ul>
 	</nav>
 </aside>

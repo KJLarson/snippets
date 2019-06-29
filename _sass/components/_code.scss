@@ -9,10 +9,11 @@
  */
 
 code[class*="language-"],
-pre[class*="language-"] {
+pre[class*="language-"]{
 	color: #ABB2BF;
 	background: none;
 	font-size: .9rem;
+	padding: 1rem;
 	border-radius: 0;
 	font-family: Menlo, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
