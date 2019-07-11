@@ -25,18 +25,18 @@
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 			</ul>
+			<ul>
+				{% for page in site.pages %} {% if page.categories contains 'jekyll' %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
+			</ul>
 			<!-- <h2>Loops</h2> -->
 			<ul>
 				{% for page in site.pages %} {% if page.categories contains 'terminal' %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 			</ul>
-			<!-- <h2>Functions</h2> -->
-			<ul>
-				{% for page in site.pages %} {% if page.categories contains 'jekyll' %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-			</ul>			
+			<!-- <h2>Functions</h2> -->		
 		</ul>
 	</nav>
 </aside>
