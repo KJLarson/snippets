@@ -21,3 +21,15 @@ Using flexbox, define the alignment along the main axis:
   align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
 }
 ```
+
+Make the body be the full height of the page:
+
+```css
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+```
