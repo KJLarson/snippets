@@ -24,3 +24,9 @@ switch (expression) {
     break;
 }
 ```
+
+Ternary operator:
+- the condition comes before the <code>?</code>
+- two expressions come after the <code>?</code> and are separated by a colon <code>:</code>
+- if <code>true</code>, then first expression executes
+- if <code>false</code>, the second expression executes
