@@ -22,7 +22,7 @@ Using flexbox, define the alignment along the main axis:
 }
 ```
 
-Make the body be the full height of the page:
+Make the <code class="language-html">body</code> be the full height of the page:
 
 ```css
 html {
