@@ -35,6 +35,14 @@ Ternary operator:
 (condition) ? console.log('The condition is true') : console.log('The condition is false');
 ```
 
+Function expressions (anonymous functions):
+
+```js
+  const functionName = function(paramOne, paramTwo) {
+    // do something
+  }
+```
+
 Arrow functions:
 
 Zero parameters
