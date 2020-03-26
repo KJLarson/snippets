@@ -34,3 +34,33 @@ Ternary operator:
 ```js
 (condition) ? console.log('The condition is true') : console.log('The condition is false');
 ```
+
+Arrow functions:
+
+Zero parameters
+```js
+const functionName = () => {};
+```
+
+One parameter
+```js
+const functionName = paramOne => {};
+```
+
+Two or more parameters
+```js
+const functionName = (paramOne, paramTwo) => {};
+```
+
+Single-line block (does not need curly braces nor the <code>return</code> keyword)
+```js
+const sumNumbers = number => number + number;
+```
+
+Multi-line block (needs <code>return</code> keyword)
+```js
+const sumNumbers = number => {
+  const sum = number + number;
+  return sum;
+};
+```
