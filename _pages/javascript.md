@@ -72,3 +72,17 @@ const sumNumbers = number => {
   return sum;
 };
 ```
+
+Function to create new HTML element:
+```js
+const createNode = (elem) => {
+  return document.createElement(elem);
+};
+```
+
+Function to append HTML element to parent element:
+```js
+const appendNode = (parent, elem) => {
+  parent.appendChild(elem);
+};
+```
