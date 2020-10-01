@@ -86,3 +86,15 @@ const appendNode = (parent, elem) => {
   parent.appendChild(elem);
 };
 ```
+
+Fetch API call:
+```js
+fetch(url)
+  .then(res => res.json())
+  .then(data => {
+    // code to handle response
+  }).catch(err => {
+    //code to handle errors
+    console.error('Error: ', err);
+  });
+```
