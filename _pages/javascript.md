@@ -72,3 +72,29 @@ const sumNumbers = number => {
   return sum;
 };
 ```
+
+Function to create new HTML element:
+```js
+const createNode = (elem) => {
+  return document.createElement(elem);
+};
+```
+
+Function to append HTML element to parent element:
+```js
+const appendNode = (parent, elem) => {
+  parent.appendChild(elem);
+};
+```
+
+Fetch API call:
+```js
+fetch(url)
+  .then(res => res.json())
+  .then(data => {
+    // code to handle response
+  }).catch(err => {
+    //code to handle errors
+    console.error('Error: ', err);
+  });
+```
