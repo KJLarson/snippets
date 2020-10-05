@@ -52,3 +52,10 @@ Merge changes to upstream master with your local fork:
 ```git
 git pull upstream master
 ```
+
+Connect a local repository to a repository on GitHub using ssh (create new a repository on GitHub and then push an existing local repository):
+
+```git
+git remote add origin git@github.com:username/new_repo
+git push -u origin master
+```
